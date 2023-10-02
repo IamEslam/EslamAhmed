@@ -301,7 +301,7 @@ main nav .skills ul li{
     .ex{
         display: grid;
         grid-template-columns: 50px 1fr;
-        align-items: center;
+        align-items: baseline;
         justify-items: center;  
       }
       .t1{
@@ -319,7 +319,7 @@ main nav .skills ul li{
     .ex{
         display: grid;
         grid-template-columns: 50px 1fr;
-        align-items: center;
+        align-items: baseline;
         justify-items: center;  
       }
       .t1{
@@ -337,7 +337,7 @@ main nav .skills ul li{
     .ex{
         display: grid;
         grid-template-columns: 50px 1fr;
-        align-items: center;
+        align-items: baseline;
         justify-items: center;  
       }
       .t1{
@@ -355,7 +355,7 @@ main nav .skills ul li{
     .ex{
         display: grid;
         grid-template-columns: 50px 1fr;
-        align-items: center;
+        align-items: baseline;
         justify-items: center;  
       }
       .t1{
