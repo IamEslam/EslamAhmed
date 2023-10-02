@@ -1,0 +1,16 @@
+
+.header{
+    background: #fc1;
+    text-align: center;
+  
+}
+.name{
+    height: 90px;
+}
+.title{
+    width: 90%;
+    text-align: right;
+    margin: auto;
+    background: #fff;
+    font-size: 6.3vw;
+}

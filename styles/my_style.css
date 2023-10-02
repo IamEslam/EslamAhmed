@@ -1,0 +1,369 @@
+/* My Main Style CSS */
+body{
+    background: url(../images/bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+.container, .container-fluid{
+    padding-right: calc(var(--bs-gutter-x) * 0);
+    padding-left: calc(var(--bs-gutter-x) * 0);
+}
+
+main{
+    max-width: 794px;
+    margin: auto;
+    background: #777;
+    color: white;
+    box-shadow: 0px 0px 15px #111;
+}
+main h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+    .header{
+        background: #fc1;
+        /* text-align: center; */
+        padding-top: calc(3 * var(--bs-gutter-x));
+        padding-top: 60px;
+    }
+    .inrow{
+        margin-right: calc(1.5 * var(--bs-gutter-x));
+        margin-left: calc(1.5 * var(--bs-gutter-x));
+        background: #fff;
+        color:black;
+    }
+    .summary{
+        margin-right: calc(1.5 * var(--bs-gutter-x));
+        margin-left: calc(1.5 * var(--bs-gutter-x));
+        /* text-align: justify; */
+    }
+    .name{
+        text-transform: uppercase;
+        margin: 0;
+        color: #777;
+    }
+    .title{
+        line-height: 1;
+        background: #777;
+        display: inline-block;
+        width: 100%;
+        display: inline-block;
+        color: #777;
+        text-align: left;
+    }
+    .title-an{
+        line-height: 1;
+        background: #fff;
+        letter-spacing: 2px;
+        font-size: 1.4rem;
+        text-transform: uppercase;
+    }
+    .hb{
+        border-top: 2px solid #fc1;
+    }
+    /* --------------------------- */
+    /* .ex{
+        display: grid;
+        grid-template-columns: 50px 1fr;
+        align-items: center;
+        justify-items: center;  
+      } */
+      .ex h3{
+        font-weight: 300;
+        line-height: 1.2;
+      } 
+      /* .t1{
+        text-align: center;
+        min-width: 80px;
+        transform: rotate(-90deg);
+        font-weight: 500;    
+      } */
+      .t2{
+          padding: 5px 10px;
+          margin: 5px 0px;
+          text-align: justify;
+          border-left: 4px solid #fc1;
+          background: #eee;
+          padding-right: 5px;
+          box-shadow: 0px 1px 2px #000;
+          width: 100%;
+      }
+
+      .t2 h3{
+        margin: 0;
+      }
+      .t2 strong{
+        padding-left: 30px;
+        font-weight: 600;
+        line-height: 1.2;
+      }      
+      .t3{
+        padding: 10px 0px;
+        margin: 5px 0px;
+        /* text-align: justify; */
+        /* border: 3px double #fc1; */
+        background: #eee;
+        /* padding-right: 5px; */
+        box-shadow: 0px 1px 2px #000;
+        width: 100%;
+        height: 75%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+/* --------------------------- copy right -- */
+main .copy{
+    position: fixed;
+    left: auto;
+    top: 100%;
+    color: #fff;
+    transform: rotate(-90deg);
+    margin: -220px -145px;
+    
+  }
+  main .copy span{
+      font-family: my-1;
+      font-size: 40px;
+      color: #fc1;
+      text-shadow: 1px 1px 2px #000, -1px 1px 1px #fff;
+      padding: 0 10px;
+  }
+  dl{
+    margin-bottom: 10px;
+    margin-top: 5px;
+    /* margin-left: 70px; */
+    display: flex;
+    flex-direction: column;
+    /* border-left: 4px double #fc1; */
+    padding-left: 10px;
+  }
+  /* ---------------------- */
+  .nav_bar{
+    /* height: 100vh; */
+    position: absolute;
+    background: transparent;
+    top: 0;
+    width: 225px;
+    padding-top: 20px;
+    margin-left: 50px;
+    border-bottom: 4px solid #fc1;
+  
+  }
+  .nav_bar_2{
+    height: 100%;
+    position: fixed;
+    background: #fc1;
+    bottom: 0;
+    width: 225px;
+    padding-top: 20px;
+    margin-left: 50px;
+    border-bottom: 4px solid #fc1;
+  
+  }
+.info{
+    background: #777;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+  /*  height: 50%; */
+  }
+.photo{
+    width: 215px;
+    margin: 5px;
+    border-radius: 10px;
+    border: 3px solid #fff;
+  -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0.5, transparent), to(rgba(250, 250, 250, 0.2)));
+  }
+  .contacts{
+    color: #fff;
+    padding: 10px 10px;
+    text-align: left;
+    position: relative;
+    z-index: 5;  
+    margin-top: 40px;
+    border-bottom: 20px solid #fff;
+  }
+  .contacts h2{
+    text-decoration: underline;
+    color:#fc1;
+  }
+  .contacts ul{
+    list-style-type:none;
+    padding: 0 5px;
+  }
+  .contacts ul i{
+    color:#fc1;
+    padding: 5px 0px;
+    font-size: large;
+    width: 25px;
+  }
+   .contacts ul li{
+    color: #fff;
+  }
+
+
+  .skills{
+    color: #000;
+    padding: 0px 10px 0;
+    text-align: left;
+  /*  position: relative; */
+    z-index: 5;
+    background: #fc1;
+    border-top: 1px dashed #eee;
+  }
+  .skills .h-skills{
+    /*  background: #fff;
+      */margin: 0 -10px;
+      padding: 10px;
+      text-decoration: underline;
+    }
+.skills ul {
+  list-style-type: disc;
+  padding: 10px 5px 20px;
+  margin: 0 15px;
+}
+main nav .skills ul li{
+  padding-bottom: 5px ;
+  text-shadow: 1px 1px 4px #fff;
+}
+.skills ul {
+    list-style-type: disc;
+    padding: 10px 5px 20px;
+    margin: 0 15px;
+  }
+.skills ul li{
+    padding-bottom: 5px ;
+    text-shadow: 1px 1px 4px #fff;
+  }
+  
+.menu{
+  text-align: center;
+}
+.menu ul{
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  justify-content: space-around;
+  font-size: xxx-large;
+  margin: 0;
+}
+.menu ul li a {
+  color: #777;
+}
+.menu ul li a :hover{
+  color: #fc1
+}
+.awords{
+  width: 205px;
+  margin: 10px 0px;
+}
+/* ------------------------------------------- */
+.display-1 {font-size: 11.5vw;}
+.nav_bar{visibility: hidden;}
+.nav_bar_2{visibility: hidden;}
+.hidden{display: block;}
+.ex{
+    display: grid;
+    justify-items: start;  
+  } 
+ .t1{
+    text-align: center;
+    min-width: 80px;
+    /* transform: rotate(-90deg); */
+    font-weight: 500;}
+ 
+
+  @media (min-width: 576px) {
+    .display-1 {font-size: 4.35rem;}
+    .nav_bar{visibility: hidden;}
+    .nav_bar_2{visibility: hidden;}
+    .hidden{display: block;}
+      .ex{
+        display: grid;
+        justify-items: start;  
+      }
+      .t1{
+        text-align: center;
+        min-width: 80px;
+        /* transform: rotate(-90deg); */
+        font-weight: 500;    
+      }
+}
+@media (min-width: 768px) {
+    .display-1 {font-size: 8.5vw;}
+    .nav_bar{visibility: visible;}
+    .nav_bar_2{visibility: visible;}
+    .hidden{display: none;}
+    .ex{
+        display: grid;
+        grid-template-columns: 50px 1fr;
+        align-items: center;
+        justify-items: center;  
+      }
+      .t1{
+        text-align: center;
+        min-width: 80px;
+        transform: rotate(-90deg);
+        font-weight: 500;    
+      }
+  }
+  @media (min-width: 992px) {
+    .display-1 {font-size: 4.35rem;}
+    .nav_bar{visibility: visible;}
+    .nav_bar_2{visibility: visible;}
+    .hidden{display: none;}
+    .ex{
+        display: grid;
+        grid-template-columns: 50px 1fr;
+        align-items: center;
+        justify-items: center;  
+      }
+      .t1{
+        text-align: center;
+        min-width: 80px;
+        transform: rotate(-90deg);
+        font-weight: 500;    
+      }
+  }
+  @media (min-width: 1200px) {
+    .display-1 {font-size: 4.35rem;}
+    .nav_bar{visibility: visible;}
+    .nav_bar_2{visibility: visible;}
+    .hidden{display: none;}
+    .ex{
+        display: grid;
+        grid-template-columns: 50px 1fr;
+        align-items: center;
+        justify-items: center;  
+      }
+      .t1{
+        text-align: center;
+        min-width: 80px;
+        transform: rotate(-90deg);
+        font-weight: 500;    
+      }
+  }
+  @media (min-width: 1400px) {
+    .display-1 {font-size: 4.35rem;}
+    .nav_bar{visibility: visible;}
+    .nav_bar_2{visibility: visible;}
+    .hidden{display: none;}
+    .ex{
+        display: grid;
+        grid-template-columns: 50px 1fr;
+        align-items: center;
+        justify-items: center;  
+      }
+      .t1{
+        text-align: center;
+        min-width: 80px;
+        transform: rotate(-90deg);
+        font-weight: 500;    
+      }
+  }
+
+  /* -------------------- */
