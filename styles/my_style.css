@@ -63,7 +63,7 @@ main h2{
         text-transform: uppercase;
     }
     .hb{
-        border-top: 2px solid #fc1;
+        /* border-top: 2px solid #fc1; */
     }
     /* --------------------------- */
     /* .ex{
@@ -92,7 +92,13 @@ main h2{
           box-shadow: 0px 1px 2px #000;
           width: 100%;
       }
-
+      /* hide main Experience----------------------------------------------- */
+      .ex .t2 p{
+        display: none;
+      }
+      .t2:hover  .t2 p{
+        display: block;
+}
       .t2 h3{
         margin: 0;
       }
@@ -105,7 +111,7 @@ main h2{
         padding: 10px 0px;
         margin: 5px 0px;
         /* text-align: justify; */
-        /* border: 3px double #fc1; */
+        border-top: 4px solid #fc1;
         background: #eee;
         /* padding-right: 5px; */
         box-shadow: 0px 1px 2px #000;
@@ -269,6 +275,7 @@ main nav .skills ul li{
 .ex{
     display: grid;
     justify-items: start;  
+    margin-bottom: 10px;
   } 
  .t1{
     text-align: center;
