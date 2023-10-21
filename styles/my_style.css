@@ -374,4 +374,42 @@ main nav .skills ul li{
       }
   }
 
-  /* -------------------- */
+  /* Contact Me-------------------- */
+
+  .input-container {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 5px;
+    outline: none;
+    border: 1px solid ;
+    border-radius: 25px;
+
+  }
+  
+  .input-field:focus {
+    border: 1px solid dodgerblue;
+  }
+  
+  /* Set a style for the submit button */
+  .btn {
+    background-color: #3f3f3f;
+    color: white;
+    padding: 5px 5px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    border-radius: 25px;
+  }
+  
+  .btn:hover {
+    opacity: .5;
+    background-color: #3f3f3f;
+    color: white;
+  }
