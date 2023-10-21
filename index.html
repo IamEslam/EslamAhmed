@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <title>Document</title>
+        <!-- Meta tages  -->
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-        <title>Document</title>
-        <!-- Meta tages -->
         <meta name="title" content="Eslam Ahmed Web Developer">
         <meta name="language" content="English">
         <meta name="author" content="Eslam Ahmed">
@@ -19,7 +18,14 @@
         <link rel="stylesheet" href="styles/fonts.css">
         <link rel="stylesheet" href="styles/all.css">
         <link rel="stylesheet" href="lightbox2/dist/css/lightbox.min.css">
-
+        <!-- Scripts Files -->
+        <script src="lightbox2/dist/js/lightbox-plus-jquery.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+        <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+        <script src="chrome-extension://njgehaondchbmjmajphnhlojfnbfokng/js/contentScripts/dom.js"></script>
+        <script src="scripts/js.js"></script>
+        <!-- favicon---- -->
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
 </head>
 <body>
     <main>
@@ -83,54 +89,75 @@
                 <div class="col-md-8">
                     <h2 class="hb">Experience</h2>
                     <div class="ex">
-                      <div class="t1">-Jul-2009 -Present-</div>
-                        <span class="t2">
-                            <h3>Filing-Data entry</h3>
-                            <strong>BMW (Bavarian Auto Group) : <br> </strong>
-                            Proven ability to organize and maintain documents, enter data accurately and efficiently, and retrieve information quickly and easily.
-                            Proficient in Microsoft Office Suite, Word, Excel, PowerPoint, Outlook
-                            Experience with a variety of filing systems (alphabetical, numerical, color code, subject-based)
-                            Excellent typing and data entry skills, Strong organizational and time management skills, Ability to work independently and as part of a team
+                      <!-- <div class="t1">-Jul-2009 -Present-</div>   -->
+                      <div class="t1">Jul-2009 Mar-2023</div>  
+                        <span id="desc-1" class="t2" >
+                            <div >
+                                <h3>Filing-Data entry</h3>
+                                <strong>___BMW (Bavarian Auto Group) :</strong>
+                            </div>
+                            <p class="desc-1">
+                                Proven ability to organize and maintain documents, enter data accurately and efficiently, and retrieve information quickly and easily.
+                                Proficient in Microsoft Office Suite, Word, Excel, PowerPoint, Outlook
+                                Experience with a variety of filing systems (alphabetical, numerical, color code, subject-based)
+                                Excellent typing and data entry skills, Strong organizational and time management skills, Ability to work independently and as part of a team.
+                            </p>
                         </span>
                     </div>
               
                     <div class="ex">
-                      <div class="t1">-Oct-2008 -Feb-2009</div>
-                        <span class="t2">
-                            <h3>CSS Coder</h3>
-                            <strong>World Group Inc. : <br> </strong>
-                            Designed and maintained the CSS for a variety of websites, including corporate websites, forums, and blogs
+                      <div class="t1">Oct-2008 Feb-2009</div>
+                        <span id="desc-2" class="t2">
+                            <div >
+                                <h3 >CSS Coder</h3>
+                                <strong>___World Group :</strong>
+                            </div>
+                            <p class="desc-2">
+                                Designed and maintained the CSS for a variety of websites, including corporate websites, forums, and blogs.
+                            </p>
                         </span>
                     </div>
               
                     <div class="ex">
-                      <div class="t1">-Jan-2008 -Apr-2008</div>
-                        <span class="t2">
-                            <h3>Web Designer</h3>
-                            <strong>Tourism website : <br> </strong>
-                            Design a tourism website about Alexandria, documentation and building its own internal pages.
+                      <div class="t1">Jan-2008 Apr-2008</div>
+                        <span id="desc-3" class="t2">
+                            <div >
+                                <h3>Web Designer</h3>
+                                <strong>___Tourism website :</strong>
+                            </div>
+                            <p class="desc-3">
+                                Design a tourism website about Alexandria, documentation and building its own internal pages.
+                            </p>
                         </span>
                     </div>
               
                     <div class="ex">
-                      <div class="t1">-Dec-2005 -Dec-2007</div>
-                        <span class="t2">
-                            <h3>Web and Graphic Designer</h3>
-                            <strong>RamaHost Inc. : <br> </strong>
-                            Creating and maintaining visually appealing and user-friendly websites and graphic design materials. Proven ability to design and develop websites using a variety of tools and technologies.
-                            Expertise in responsive design, accessibility, and SEO. 
-                            Strong understanding of web typography, color theory, and graphic design principles.                        
+                      <div class="t1">Dec-2005 Dec-2007</div>
+                        <span id="desc-4" class="t2">
+                            <div >
+                                <h3>Web and Graphic Designer</h3>
+                                <strong>___RamaHost :</strong>
+                            </div>
+                            <p class="desc-4">
+                                Creating and maintaining visually appealing and user-friendly websites and graphic design materials. Proven ability to design and develop websites using a variety of tools and technologies.
+                                Expertise in responsive design, accessibility, and SEO. 
+                                Strong understanding of web typography, color theory, and graphic design principles.                        
+                            </p>
                         </span>
                     </div>
 
                     <div class="ex">
-                      <div class="t1">-May-2004 -Aug-2005</div>
-                        <span class="t2">
-                            <h3>Graphic Designer</h3>
-                            <strong>More Companies: <br> </strong>
-                            I have worked for most graphic companies and studios
-                            such as Metro Graphic, High Graphic, Colors Group.
-                        </span>
+                      <div class="t1">May-2004 Aug-2005</div>
+                        <span id="desc-5" class="t2">
+                            <div >
+                                <h3>Graphic Designer</h3>
+                                <strong>___Many Graphic Companies :</strong>
+                            </div>
+                            <p class="desc-5">
+                                I worked for most graphic companies and studios
+                                such as Metro Graphic, High Graphic, Colors Group.
+                            </p>
+                            </span>
                     </div>
                 </div>
             </div>        
@@ -345,7 +372,6 @@
 </div>
     </main>
 
-    <script src="lightbox2/dist/js/lightbox-plus-jquery.min.js"></script>
 
 </body>
 </html>
