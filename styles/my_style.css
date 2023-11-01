@@ -62,9 +62,9 @@ main h2{
         font-size: 1.4rem;
         text-transform: uppercase;
     }
-    .hb{
-        /* border-top: 2px solid #fc1; */
-    }
+    /* .hb{
+        border-top: 2px solid #fc1;
+    } */
     /* --------------------------- */
     /* .ex{
         display: grid;
@@ -140,6 +140,7 @@ main .copy{
       text-shadow: 1px 1px 2px #000, -1px 1px 1px #fff;
       padding: 0 10px;
   }
+  
   dl{
     margin-bottom: 10px;
     margin-top: 5px;
@@ -236,23 +237,25 @@ main .copy{
       text-decoration: underline;
     }
 .skills ul {
-  list-style-type: disc;
+  list-style-type: none;
   padding: 10px 5px 20px;
-  margin: 0 15px;
+  margin: 0 5px;
 }
 main nav .skills ul li{
   padding-bottom: 5px ;
   text-shadow: 1px 1px 4px #fff;
 }
-.skills ul {
-    list-style-type: disc;
-    padding: 10px 5px 20px;
-    margin: 0 15px;
-  }
+
 .skills ul li{
-    padding-bottom: 5px ;
-    text-shadow: 1px 1px 4px #fff;
-  }
+  padding-bottom: 5px ;
+  text-shadow: 1px 1px 4px #fff;  
+}
+.skills ul li i{
+  padding: 5px 0px;
+  font-size: large;
+  width: 25px;
+}
+
   
 .menu{
   text-align: center;
