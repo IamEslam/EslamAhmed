@@ -13,11 +13,13 @@
         <meta name="description" content="Web Designer I am self-motivated , punctual,creative and hard worker. I am able to work well both independently and team environment.">
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <!-- Style Sheets -->
-            <link rel="stylesheet" href="styles/bootstrap.css">
-        <link rel="stylesheet" href="styles/my_style.css">
+        <link rel="stylesheet" href="styles/bootstrap.css">
         <link rel="stylesheet" href="styles/fonts.css">
         <link rel="stylesheet" href="styles/all.css">
         <link rel="stylesheet" href="lightbox2/dist/css/lightbox.min.css">
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+        <link rel="stylesheet" href="styles/my_style.css">
+
         <!-- Scripts Files -->
         <script src="lightbox2/dist/js/lightbox-plus-jquery.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
@@ -44,9 +46,9 @@
                 </div>  
                 <div class="col-md-8 menu hidden">
                     <ul>
-                        <li><a href="#" title="Contacts" ><i class="fa-solid fa-id-card" ></i></a></li>
-                        <li><a href="#" title="Business Skills" ><i class="fa-solid fa-suitcase"></i></a></li>
-                        <li><a href="#" title="Web Skills" ><i class="fa-solid fa-code"></i></a></li>
+                        <li><a href="#" title="Contacts" id="openerContact"><i class="fa-solid fa-id-card" ></i></a></li>
+                        <li><a href="#" title="Business Skills" id="openerBusiness"><i class="fa-solid fa-suitcase"></i></a></li>
+                        <li><a href="#" title="Web Skills"id="openerWeb"><i class="fa-solid fa-code"></i></a></li>
                         <li><a href="images/certificates/Responsive-Web-Design.jpg" data-lightbox="example-set" data-title="Responsive Web Design @ freeCodeCamp." title="Certificates"><i class="fa-solid fa-award"></i></a></li>
                     </ul>
                 </div>
@@ -398,6 +400,42 @@
 </div>
     </main>
 
+<!-- ------------------------------- -->
+
+
+
+<!-- personal contacts -------------------------------------- -->
+    <div class="contacts " id="contact" title="Contacts" >
+        <ul>
+            <li><i class="fa-solid fa-phone"></i>0122-5577-451</li>
+            <li><i class="fa-solid fa-at"></i>eslam.dif@gmail.com</li>
+            <li><i class="fa-solid fa-location-dot"></i>Alexandria, Egypt.</li>
+            <li><i class="fa-brands fa-linkedin-in"></i>/in/EA-EslamAhmed/</li>
+            <li><i class="fa-solid fa-earth-africa"></i>www.eslam.pro</li>
+        </ul>
+    </div>
+
+<!-- Business Skilss ----------------------------------------- -->
+    <div class="contacts" id="business" title="Business Skills" >
+        <ul>
+            <li> Time Management </li>
+            <li> Business Writing </li>
+            <li> Communication </li>
+            <li> Presentation </li>
+            <li> Negotiation </li>
+            <li> MS Office </li>
+        </ul>
+    </div>
+<!-- web Skilss ----------------------------------------- -->
+    <div class="contacts" id="web" title="Web Skills">
+        <ul>
+            <li> Photoshop, Illustrator </li>
+            <li> Html, Css, Js </li>
+            <li> Bootstrap, jQuery </li>
+            <li> MySql, Php </li>
+        </ul>
+    </div>
+    
 
 </body>
 </html>
